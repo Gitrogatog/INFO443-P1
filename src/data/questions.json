@@ -1,0 +1,81 @@
+[
+  {
+    "difficulty": "easy", "img": "img/green.png",
+    "options": [
+        {"id": 0, "text": "红色", "isCorrect": false },
+        {"id": 1, "text": "绿色", "isCorrect": true},
+        {"id": 2, "text": "蓝色", "isCorrect": false}
+    ]
+  },
+
+  {
+    "difficulty": "easy", "img": "img/flower.jpeg",
+    "options": [
+        {"id": 0, "text": "花朵", "isCorrect": true },
+        {"id": 1, "text": "树木", "isCorrect": false},
+        {"id": 2, "text": "草地", "isCorrect": false}
+    ]
+  },
+
+  {
+    "difficulty": "easy", "img": "img/night.webp",
+    "options": [
+        {"id": 0, "text": "早上", "isCorrect": false },
+        {"id": 1, "text": "中午", "isCorrect": false},
+        {"id": 2, "text": "晚上", "isCorrect": true}
+    ]
+  },
+
+  {
+    "difficulty": "medium", "img": "img/person-running.png",
+    "options": [
+        {"id": 0, "text": "吃饭", "isCorrect": false },
+        {"id": 1, "text": "跑步", "isCorrect": true},
+        {"id": 2, "text": "睡觉", "isCorrect": false}
+    ]
+  },
+
+  {
+    "difficulty": "medium", "img": "img/thankyou.jpeg",
+    "options": [
+        {"id": 0, "text": "你好", "isCorrect": false },
+        {"id": 1, "text": "再见", "isCorrect": false},
+        {"id": 2, "text": "谢谢", "isCorrect": true}
+    ]
+  },
+
+  {
+    "difficulty": "medium", "img": "img/tomorrow.jpeg",
+    "options": [
+        {"id": 0, "text": "今天", "isCorrect": false },
+        {"id": 1, "text": "明天", "isCorrect": true},
+        {"id": 2, "text": "昨天", "isCorrect": false}
+    ]
+  },
+
+  {
+    "difficulty": "hard", "img": "img/hospital.jpeg",
+    "options": [
+        {"id": 0, "text": "体育场", "isCorrect": false },
+        {"id": 1, "text": "酒店", "isCorrect": false},
+        {"id": 2, "text": "医院", "isCorrect": true}
+    ]
+  },
+
+  {
+    "difficulty": "hard", "img": "img/gym.jpeg",
+    "options": [
+        {"id": 0, "text": "餐厅", "isCorrect": false },
+        {"id": 1, "text": "商场", "isCorrect": false},
+        {"id": 2, "text": "健身房", "isCorrect": true}
+    ]
+  },
+  {
+    "difficulty": "hard", "img": "img/restaurant.jpeg",
+    "options": [
+        {"id": 0, "text": "餐厅", "isCorrect": true},
+        {"id": 1, "text": "警察局", "isCorrect": false},
+        {"id": 2, "text": "动物园", "isCorrect": false}
+    ]
+  }
+]

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Marina, Roberto">
+    <meta name="History" content="Graphs that can track user's history quizes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>English-Mandarin Learning Website</title>
+</head>
+<body>
+    <header>
+      <nav class="nav-container navbar navbar-expand-md" style="background-color: #c64747;">
+        <a class="navbar-brand company nav-link" href="about.html">Eng-Chi</a>
+        <a class="nav-link" href="index.html">
+          Home-Dictionary
+        </a >
+        <a class="nav-link" href="quiz-start.html">
+          Quiz
+        </a >
+        <a class="nav-link" href="history.html">
+          History
+        </a >
+        <a class="nav-link" href="compare-search.html">
+          Comparison
+        </a >
+        <a class="nav-link" href="log-in.html">
+          Log in
+        </a>
+      </nav>
+    </header>
+    <main>
+      <h1>Past performances:</h1>
+      <div class="center history-image">
+        <img src="img/line-graph-example.svg" alt="line graph to show your quiz performance" class="history_img">
+      </div>
+      <div class="center">
+        <h2 for="customRange2" class="form-label">Last 30 quiz trials  --  Last 1 quiz trial</h2>
+        <input type="range" class="form-range" min="0" max="4" id="customRange2">
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2022 Marina & Roberto</p>
+    </footer>
+</body>
+</html>

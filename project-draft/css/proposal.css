@@ -1,0 +1,12 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+h1 {
+    font-family: 'Roboto';
+    color: rgba(255, 255, 255, 0.968);
+    background-color: #333;
+    border-spacing: 2rem;
+}
